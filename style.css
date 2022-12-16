@@ -38,7 +38,9 @@ main{
     "a a pa"
     "f f f";
     gap: 10px;
-    background-image: url("https://img.freepik.com/free-photo/black-monstera-leaves-background-wallpaper_53876-102420.jpg?w=2000");
+    background-image: url("kepek/forest.gif" ); 
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .content{
     background-image: linear-gradient(180deg,#181818, #302e2b);
@@ -53,7 +55,13 @@ article{
     align-items: center;
 }
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;   
     grid-area: f;
+    /* nem a közepén van a szöveg */
 }
 header{
     grid-area: h;
